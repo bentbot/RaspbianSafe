@@ -30,6 +30,8 @@ If the script has successfully started, the screen will read the time and two re
 - Type a code to open the Lock `1111`
 - Pressing the `A` button will toggle lighting modes
 
+Run `sudo dpkg-reconfigure tzdata` to set the system time which displays on the screen.
+
 ###### Startup 
 Use `sudo crontab -e` to open the system cron table, then add a line to run the `startup.sh` file included in the repo. 
 ````
