@@ -1,14 +1,18 @@
 # Raspbian Safe
 
 A simple python script supporting a *2 x 16* I2C screen, an *8 x 8* matrix keypad, and a 4 channel relay module. The program can run on bootup of a [RaspberryPi](https://www.raspberrypi.org/) to keep a locking circut closed until a code is entered. Support for lighting and or LED indicators. This could be installed on an electric locking door safe.
-- Raspberry Pi [v2](https://www.raspberrypi.org/products/raspberry-pi-2-model-b/), [Raspbian](https://www.raspbian.org/) OS, MicroSD Card
--  4 pin I2C interface with 2 x 16 character dot matrix display
-- 16 pin 8 x 8 numaric keypad with four alpha buttons
--  6 pin 5v relay module
-- Electromagnetic or solenoid based door lock
-- 12v RGB LED Lights
-- 12v supply and 5v USB converter
-- Optional 12v battery backup
+
+![alt tag](https://pbs.twimg.com/media/CbxbweiWIAArKEo.jpg:small)
+
+- [Raspberry Pi v2](https://www.raspberrypi.org/products/raspberry-pi-2-model-b/), [Raspbian](https://www.raspbian.org/) OS, MicroSD Card
+-  [4 pin I2C interface](http://goo.gl/j2pGl7) with 2 x 16 character dot matrix display
+- [16 pin 8 x 8 numaric keypad](http://goo.gl/uhjbc0) with four alpha buttons
+-  [6 pin 5v relay](http://goo.gl/RUHKiW) module
+- [Electromagnetic](http://goo.gl/sdH5cf) or [solenoid](http://goo.gl/ycfzch) based door lock
+- [12v RGB LED](http://goo.gl/R0RnQo) Lights
+- [12v supply](http://goo.gl/A6PjdV) 
+- [5v USB converter](http://goo.gl/lrsztp)
+- Optional [12v battery](http://goo.gl/UadAzx) backup
 
 Setup Raspbian and use SSH to clone the repository. Run the program with this command:
 ````
