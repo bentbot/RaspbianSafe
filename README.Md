@@ -22,7 +22,8 @@ sudo python program.py
 ###### Pinout
 Raspberry Pi pinout should follow this diagram. No resistors or circuitry are required if the correct components are selected.
 
-[diagram]
+![alt tag](http://i.imgur.com/O22dwoz.jpg)
+[Imgur](http://i.imgur.com/O22dwoz.jpg)
 
 **Correct pinout is important. Connecting pins incorrectly may cause harm to project components.**
 
